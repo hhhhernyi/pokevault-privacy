@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PokéVault — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg:#0f1b2d; --muted:#51637a; --bg:#f3f8fe; --card:#fff; --line:#cfe2f7; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e8e6f0; --muted:#8a88a0; --bg:#0a0a0f; --card:#14141f; --line:#2a2a44; } }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:32px 16px; background:var(--bg); color:var(--fg);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:680px; margin:0 auto; background:var(--card); border:1px solid var(--line);
+         border-radius:16px; padding:32px 28px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:18px; margin:32px 0 8px; }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  ul { padding-left:20px; }
+  footer { color:var(--muted); font-size:14px; margin-top:32px; border-top:1px solid var(--line); padding-top:16px; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="sub">PokéVault for iOS &middot; last updated 25 September 2026</p>
+
+  <h2>The short version</h2>
+  <p>PokéVault keeps an account so your collection follows you between devices. It stores what
+     you tell it about your cards and nothing else. There is no advertising, no analytics, no
+     tracking, and nothing is sold or shared for marketing. You can delete everything from inside
+     the app at any time.</p>
+
+  <h2>What the app collects</h2>
+  <ul>
+    <li><strong>Account:</strong> your email address and a sign-in credential. If you sign in with
+        Apple or Google, PokéVault receives the email address (or Apple's private relay address)
+        that the provider shares, and never sees your Apple or Google password.</li>
+    <li><strong>Profile:</strong> the display name, country and currency you choose during
+        setup. These personalise the app; the currency is the default for purchase prices.</li>
+    <li><strong>Your collection:</strong> which cards you own and, for each copy, anything you
+        choose to record &mdash; variant, condition, grading company and grade, and purchase
+        price.</li>
+  </ul>
+
+  <h2>What is not collected</h2>
+  <ul>
+    <li>No location, contacts, photos, camera or microphone access. The app never asks for these
+        permissions.</li>
+    <li>No advertising identifiers, and no tracking across other apps or websites.</li>
+    <li>No usage analytics or third-party crash reporting.</li>
+  </ul>
+
+  <h2>How it is used</h2>
+  <p>Only to run the app: to sign you in, and to show you your own collection and its completion.
+     Nobody else can see your collection. Your data is not used for advertising, profiling, or
+     anything unrelated to the app.</p>
+
+  <h2>Where it is stored</h2>
+  <ul>
+    <li><strong>Sign-in</strong> is handled by Google Firebase Authentication.</li>
+    <li><strong>Your profile and collection</strong> are stored in a Postgres database hosted by
+        Neon on Amazon Web Services in Singapore, and reached only through PokéVault's own
+        server, which checks that each request comes from the signed-in account it concerns.</li>
+    <li><strong>On your device,</strong> the app keeps a copy of recently viewed data, and any
+        changes made while offline, so it works without a connection. Logging out or deleting
+        your account clears it.</li>
+  </ul>
+
+  <h2>Card images</h2>
+  <p>Card and set images are loaded from TCGdex, a public Pokémon card database. As with any
+     website, TCGdex's servers see the network address of the device requesting an image. No
+     account information is sent to them.</p>
+
+  <h2>Deleting your data</h2>
+  <p>In the app, go to <strong>Profile &rarr; Delete account</strong>. After you confirm your
+     identity, your profile, your entire collection and your sign-in account are permanently
+     deleted, and for Sign in with Apple accounts the app's access to your Apple ID is revoked.
+     This cannot be undone. If you cannot access the app, email the address below and the account
+     will be deleted for you.</p>
+
+  <h2>Children</h2>
+  <p>PokéVault is not directed at children under 13 and does not knowingly collect their data.
+     If you believe a child has created an account, contact us and it will be deleted.</p>
+
+  <h2>Changes</h2>
+  <p>If what the app collects changes, this policy will be updated before that version is
+     released, and the change will be described in the app's release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data: <a href="mailto:hyileenet@gmail.com">hyileenet@gmail.com</a></p>
+
+  <footer>PokéVault is an independent fan-made app. It is not affiliated with, endorsed or
+    sponsored by Nintendo, Creatures, GAME FREAK or The Pokémon Company. Pokémon and card names
+    are trademarks of their respective owners.</footer>
+</main>
+</body>
+</html>
